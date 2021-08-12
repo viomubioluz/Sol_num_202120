@@ -28,6 +28,7 @@ def regulaFalsi(x_l, x_u, funcion, Es= 1e-6):
 def funcion (x):
 	return exp(-(x+1))-1
 
+#Tanteo de limites iniciales para empezar a encontrar la raíz
 a= 5
 b= -5
 #ya= funcion(a)
